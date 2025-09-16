@@ -10,6 +10,7 @@ source is numbered lines for example 1:
 and ignore line number when you check guideline.
 and return violations if exists.
 If no violations, return empty violations.
+answer in Korean
 
 result Sample:
 {{
