@@ -7,7 +7,7 @@ from ai_search import AzureAiAgent
 
 agent = AzureAiAgent()
 
-st.set_page_config(page_title="Azure Guideline Assistant", layout="wide")
+st.set_page_config(page_title="Azure Convention Assistant", layout="wide")
 st.subheader("소스코드 주석 가이드라인 확인")
 
 # 파일 업로드 처리
