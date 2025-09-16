@@ -1,0 +1,37 @@
+### 전체 상품 조회
+GET http://localhost:8080/products
+Accept: application/json
+
+###
+
+### 단일 상품 조회
+GET http://localhost:8080/products/1
+Accept: application/json
+
+###
+
+### 상품 등록
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+  "name": "모니터",
+  "price": 300.0
+}
+
+###
+
+### 상품 수정
+PUT http://localhost:8080/products/1
+Content-Type: application/json
+
+{
+  "name": "게이밍 노트북",
+  "price": 1500.0
+}
+
+###
+
+### 상품 삭제
+DELETE http://localhost:8080/products/2
+Accept: application/json

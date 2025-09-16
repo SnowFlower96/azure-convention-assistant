@@ -1,0 +1,27 @@
+### 전체 주문 조회
+GET http://localhost:8080/orders
+Accept: application/json
+
+###
+
+### 단일 주문 조회
+GET http://localhost:8080/orders/1
+Accept: application/json
+
+###
+
+### 주문 생성
+POST http://localhost:8080/orders
+Content-Type: application/json
+
+{
+  "productId": 2,
+  "quantity": 3,
+  "totalPrice": 136.5
+}
+
+###
+
+### 주문 삭제
+DELETE http://localhost:8080/orders/1
+Accept: application/json

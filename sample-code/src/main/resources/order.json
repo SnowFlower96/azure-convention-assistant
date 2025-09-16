@@ -1,0 +1,4 @@
+[
+  { "id": 1, "productId": 1, "quantity": 2, "totalPrice": 2400.0 },
+  { "id": 2, "productId": 3, "quantity": 1, "totalPrice": 25.0 }
+]
