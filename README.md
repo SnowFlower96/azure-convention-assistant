@@ -1,1 +1,0 @@
-# azure-convention-assistant
