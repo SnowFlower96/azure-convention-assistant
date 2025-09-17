@@ -1,5 +1,10 @@
 # ☁️ Azure Convention Assistant
 
+## 개발 배경
+팀 단위로 개발을 진행할 때, 주석 가이드라인 문서가 존재하더라도 개발자마다 해석이  달라 일관된 코드 주석 작성에 어려움을 개선하고자 본 프로젝트를 시작하게 되었습니다.
+
+---
+
 **Azure Convention Assistant**는 업로드된 소스코드에 대해 주석 가이드라인 준수 여부를 자동으로 확인하고 시각화해주는 웹 애플리케이션입니다.  
 Streamlit, Azure Cognitive Search, Azure OpenAI API를 활용하여 정적 분석 및 문서 기반 가이드 추천 기능을 제공합니다.
 
