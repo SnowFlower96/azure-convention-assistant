@@ -1,2 +1,5 @@
+#!/bin/bash
+PORT=${PORT:-8000}
+
 pip install -r requirements.txt
-python -m streamlit run app/app.py --server.port 8000 --server.address 0.0.0.0
+python -m streamlit run app/app.py --server.port $PORT --server.address 0.0.0.0
