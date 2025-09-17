@@ -58,4 +58,4 @@ jobs:
         with:
           app-name: 'azure-convention-assistant'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ACB7AFD8157B481FB9988C4291842220 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A38DA4CCF3DE49919510F4504C8BA406 }}
